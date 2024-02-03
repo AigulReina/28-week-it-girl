@@ -1,0 +1,33 @@
+.container {
+    text-align: center;
+    margin: 60px;
+}
+
+.inputField {
+    margin-right: 10px;
+    padding: 9px;
+    font-size: 16px;
+}
+
+.displayButton {
+    cursor: pointer;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #147b18;
+    /* Цвет фона кнопки */
+    color: #fff;
+    /* Цвет текста кнопки */
+    transition: background-color 0.3s ease;
+}
+
+.displayButton:hover {
+    background-color: #2cd079;
+    /* Новый цвет фона при наведении на кнопку */
+}
+
+.displayText {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #064b42;
+    /* черный цвет текста */
+}
